@@ -1,0 +1,29 @@
+﻿@model list<Pet_Bucket.Models.Entity.Agency>
+@{
+    Layout = null;
+}
+
+<a class="btn btn-primary" href="/Agency/Create">Add Agency</a>
+<hr>
+<h3>All Agency</h3> 
+<table class="table table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Dob</th>
+        <th>Gender</th>
+        <th>Address</th>
+    </tr>
+    @foreach (var a in Model)
+    {
+<tr>
+    <td>@a.Id</td>
+    <td>@a.Name</td>
+    <td>@a.Dob</td>
+    <td>@a.Gender</td>
+    <td>@a.Address</td>
+    <td><a href="/student/edit/@a.Id" class="btn btn-success">Edit</a></td>
+    <td><a class="btn btn-danger">Delete</a></td>
+</tr>
+    }
+</table>

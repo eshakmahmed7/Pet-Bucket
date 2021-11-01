@@ -1,0 +1,2 @@
+E:\.net\Pet Bucket\Pet Bucket\Pet Bucket\obj\Debug\Pet Bucket.csprojAssemblyReference.cache
+E:\.net\Pet Bucket\Pet Bucket\Pet Bucket\obj\Debug\Pet Bucket.csproj.CoreCompileInputs.cache
